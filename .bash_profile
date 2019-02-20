@@ -58,13 +58,3 @@ alias hs='history|grep'
 mkcd(){
 	mkdir -p $1; cd$1
 }
-
-# update system and reboot
-function apt-updater {
-	apt-get update &&
-	apt-get dist-upgrade -Vy &&
-	apt-get autoremove -y &&
-	aot-get autoclean &&
-	apt-get clean &&
-	reboot
-}
