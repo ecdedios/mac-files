@@ -29,10 +29,6 @@ export PS1="🌈 Dd @ \h $: "
 
 
 
-# apt-get and system update
-alias sag='sudo apt-get'
-alias suu='sudo apt-get update && sudo apt-get upgrade && sudo apt-get update'
-
 # custom command shortcuts
 alias h='history'
 alias c='clear'
