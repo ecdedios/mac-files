@@ -54,6 +54,9 @@ alias grep='grep --color=auto'
 # search in history
 alias hs='history|grep'
 
+# connect to codeup ada db
+alias ada='mysql -u ada_678 -p -h 157.230.209.171 -t'
+
 # create a directory and navigate to it
 mkcd(){
 	mkdir -p $1; cd$1
