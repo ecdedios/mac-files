@@ -32,7 +32,7 @@ export PS1="🌈 Dd @ \h $: "
 # custom command shortcuts
 alias h='history'
 alias c='clear'
-alias l='ls --color=always -rthla'
+alias l='ls -rthla'
 alias cpd='clear && pwd'
 alias cpl='clear && pwd && ls -lah -F'
 alias xxx='exit'
@@ -48,14 +48,14 @@ alias .3='cd ../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../../'
 
-# colorize grep
-alias grep='grep --color=auto'
-
 # search in history
 alias hs='history|grep'
 
 # connect to codeup ada db
 alias ada='mysql -u ada_678 -p -h 157.230.209.171 -t'
+
+# spits out fortune in cowsay
+alias fc='fortune | cowsay'
 
 # create a directory and navigate to it
 mkcd(){
