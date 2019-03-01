@@ -1,0 +1,59 @@
+# custom command shortcuts
+alias h='history'
+alias c='clear'
+alias l='ls'
+alias la='ls -a'
+alias lah='ls -lah'
+alias cpd='clear && pwd'
+alias cpl='clear && pwd && ls'
+alias xxx='exit'
+
+# getting rid of command not found error
+alias cd~='~'
+alias cd..='cd ..'
+
+# getting out of the current directory
+alias ..='cd ../'
+alias ...='cd ../../'
+alias .3='cd ../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../../'
+
+# search in history
+alias hs='history|grep'
+
+# spits out fortune in cowsay
+alias fc='fortune | cowsay'
+alias fcl='fortune | cowsay | lolcat'
+
+# create a directory and navigate to it
+mkcd(){
+	mkdir -p $1; cd$1
+}
+
+# initiate python
+alias p='python'
+
+#jupyter notebook
+alias jn='jupyter notebook'
+
+# Github shortcuts
+alias gi='git init'
+alias gs='git status'
+alias ga='git add'
+alias gcom='git commit -m'
+alias grao='git remote add origin'
+alias gpush='git push -u origin master'
+alias gpom='git push origin master'
+
+# CODEUP-RELATED SHORTCUTS
+
+# connect to codeup ada db
+alias ada='mysql -u ada_678 -p -h 157.230.209.171 -t'
+
+# go to _datasci directories
+alias ds='cd ~/Documents/_datasci'
+
+
+
+
