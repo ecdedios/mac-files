@@ -10,7 +10,7 @@ includes functions
 
 ## Usage
 
-Use wth vanilla terminal.
+Use with Mac OSX vanilla terminal or iTerm2
 
 
 ## Meta
